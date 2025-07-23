@@ -4,13 +4,11 @@ public class UserModel {
 
     private Long id;
     private String name;
-    private String identityNumber;
     private String email;
 
-    public UserModel(Long id, String name, String identityNumber, String email) {
+    public UserModel(Long id, String name, String email) {
         this.id = id;
         this.name = name;
-        this.identityNumber = identityNumber;
         this.email = email;
     }
 
@@ -30,13 +28,6 @@ public class UserModel {
         this.name = name;
     }
 
-    public String getIdentityNumber() {
-        return identityNumber;
-    }
-
-    public void setIdentityNumber(String identityNumber) {
-        this.identityNumber = identityNumber;
-    }
 
     public String getEmail() {
         return email;
