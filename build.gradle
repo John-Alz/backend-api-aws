@@ -45,6 +45,12 @@ dependencies {
 	//Solucion conflicto MapStruct + Lombok
 	annotationProcessor 'org.projectlombok:lombok-mapstruct-binding:0.2.0'
 
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator
+	implementation("org.springframework.boot:spring-boot-starter-actuator")
+
+	//OpenApi
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.5'
+
 }
 
 tasks.named('test') {
