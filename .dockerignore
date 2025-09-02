@@ -1,0 +1,21 @@
+# === Gradle ===
+.gradle/
+build/
+
+# === IDEs ===
+.idea/
+.vscode/
+*.iml
+
+# === Archivos de sistema ===
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# === Git ===
+.git
+.gitignore
+
+# === Otros innecesarios ===
+.env
